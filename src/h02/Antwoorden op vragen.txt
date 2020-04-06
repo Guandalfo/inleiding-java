@@ -1,0 +1,14 @@
+1.Wat is machinetaal?
+Dit is een taal die instructies geeft aan de computer.
+
+2.Welke drie hulpmiddelen heb je nodig om te programmeren?
+Een compiler, een code-editor en een linker.
+
+3.Hoe herken je opdrachten in de broncode?
+Ze staan tussen () en er staat een ; achter.
+
+4.Waartoe dienen de import-opdrachten?
+Dan importeer je klasses die je kan gaan gebruiken in je code.
+
+5.Wat is een methode?
+Het is een functie die behoort tot een klasse.
