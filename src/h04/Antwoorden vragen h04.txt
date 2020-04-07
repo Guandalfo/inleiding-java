@@ -1,0 +1,22 @@
+1.Wat is een platform?
+De combinatie van een besturingssysteem en een processor.
+
+2.Waarom hoeft een programmeur in Java maar één keer een programma te schrijven voor verschillende platforms?
+In Java wordt de taal vertaald naar een soort middentaal waardoor je maar 1 keer een programma hoeft te schrijven.
+
+3.Wat is bytecode?
+Dat is dus de middeltaal waar Java de code naar vertaald.
+
+4.Wat doet JVM?
+De JVM vertaalt de bytecode naar de taal van elk platform. 
+
+5.Met welke methode kun je een vierkant tekenen?
+Door de g.drawRect opdracht te gebruiken en de laatste twee getallen dezelfde waarde te geven.
+
+6.Noem drie methodes waarmee je een cirkel kunt tekenen
+-Met de opdracht drawRoundRect() en dan net als bij een vierkant de hoogte en breedte het zelfde te maken en dan de laatste twee getallen hoger te maken dan de hoogte en breedte.
+-g.drawOval() en dan de laatste twee getallen gelijk aan elkaar.
+-g.drawArc() en dan het laatste getal 360 maken.
+
+7.Waarom worden opdrachten voor het scherm in paint() gezet en niet in een andere methode?
+Omdat deze methode de Graphics laat zien.
