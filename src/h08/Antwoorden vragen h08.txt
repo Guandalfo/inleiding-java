@@ -1,0 +1,25 @@
+Antwoorden op de vragen van h08:
+
+
+1.Wat is event-handling?
+Event-handling zorgt ervoor dat er verteld wordt wat er moet gebeuren als er iets gebeurt.
+
+
+2.Wat is een gebruikersinterface?
+Een gebruikersinterface maakt de interactie tussen mens en computer mogelijk, dit gebeurt door middel van tekst, afbeeldingen en meer.
+
+
+3.Waarom moet er voor een knop wel en voor een tekst geen event-handling geprogrammeerd worden?
+Omdat voor een tekst er een standaard handeling nodig is: een ingetikte tekst laten zien. Dit doet Windows intern.
+
+
+4.Wat is een lege string?
+Als het goed is is een lege string een soort invoer waar je iets kan intikken, er komt iets te staan.
+
+
+5.Wat is het verschil tussen een tekstvak en een label?
+Een tekstvak is het vak waar je iets typt, een label is iets wat dat vak omschrijft.
+
+
+6.Waarom moeten getallen uit een tekstvak altijd geconverteerd worden naar een double of een int?
+Anders worden ze gezien als tekst/string en dan worden ze niet gezien als getal.
