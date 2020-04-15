@@ -20,18 +20,31 @@ public class Opdracht83 extends Applet {
         add(label);
         add(textvenster);
         add(knop);
+        textvenster.addActionListener( new TextvensterListener() );
     }
 
     public void paint(Graphics g) {
 
     }
     class KnopListener implements ActionListener {
-        public void actionPerformed(ActionEvent Enter) {
+        public void actionPerformed(ActionEvent e) {
             String s = textvenster.getText();
             getal = Double.parseDouble(s);
             btw1=getal*0.21;
             btw2=btw1+getal;
             uitkomst=String.valueOf(btw2);
+            textvenster.setText(uitkomst);
+            repaint();
+
+        }
+    }
+    class TextvensterListener implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+            String s = textvenster.getText();
+            getal = Double.parseDouble(s);
+            btw1 = getal * 0.21;
+            btw2 = btw1 + getal;
+            uitkomst = String.valueOf(btw2);
             textvenster.setText(uitkomst);
             repaint();
 
