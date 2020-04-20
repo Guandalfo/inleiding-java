@@ -1,0 +1,26 @@
+Antwoorden op vragen h11:
+
+
+Wat is het verschil tussen een while- en een for-lus?
+Bij een lus is het zo dat als je de variable aanpast, de voorwaarde meteen evalueerd. Met een While is dit niet zo.
+
+
+
+Wat is het nesten van lussen?
+Lussen maken in een lus.
+
+
+
+Bekijk de volgende broncode:
+
+
+int eind = 5;
+for(int i = 10;  i < eind;  i++) {
+     ....
+     ....
+}
+
+
+
+Wordt de lus uitgevoerd? Geef een verklaring voor je antwoord.
+Nee, de I variable is altijd groter dan de eind variable, de opdrachten worden niet uitgevoerd omdat de I variable groter is dan de eind variable.
