@@ -27,9 +27,9 @@ public class OpdrachtPraktijk12 extends Applet {
     public void paint(Graphics g) {
         if (teller1 == 10) {
             for (int teller = 0; teller < 10; teller++) {
-                g.drawString("Telefoonnummers:  ", 50, 50);
+                g.drawString("Telefoonnummers:  ", 50, 40);
                 g.drawString("" + input1[teller], 50, 20 * teller + 50);
-                g.drawString("Namen:   ", 300, 50);
+                g.drawString("Namen:   ", 300, 40);
                 g.drawString("" + input2[teller], 300, 20 * teller + 50);
             }
         }
